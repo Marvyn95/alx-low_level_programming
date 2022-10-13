@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main is  entry point for the program
+ * main - prints out words
+ *
  * prints words to standard output
+ *
  * return (0) if no errors are present
  */
 int main(void)
