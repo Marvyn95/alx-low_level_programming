@@ -1,21 +1,12 @@
 #include <stdio>
-/**
- * main is the entry point to any c code
- * and this is it
- */
 
 /**
- *my main function for the source code 
+ * main - is the entry point
+ *
+ *  return: 0 if successful
  */
 int main(void)
 {
-	/**
-	 *this commands prints to the stdout
-	 *right\?
-	 */
-	puts("\"Programming is like building a multilingual puzzle")	
-	/**
-	 * My return value for the main function
-	 */
-	return (0)
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
