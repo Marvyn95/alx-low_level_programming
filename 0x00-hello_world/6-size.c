@@ -4,7 +4,6 @@
  * main - prints various sizes for different data types
  * return:0 if successful
  */
-
 int main(void)
 {
 	char a;
