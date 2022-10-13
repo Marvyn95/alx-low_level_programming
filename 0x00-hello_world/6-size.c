@@ -3,7 +3,7 @@
 /**
  * main - prints various sizes for different data types
  * prints memory for data types
- * return:0 if successful
+ * Return: 0 if successful
  */
 int main(void)
 {

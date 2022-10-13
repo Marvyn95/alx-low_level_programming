@@ -5,7 +5,7 @@
  *
  * prints words to standard output
  *
- * return (0) if no errors are present
+ * Return: (0) if successful
  */
 int main(void)
 {

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - is the entry point
+ * main - prints out words
  *
- * return: value is 0 only if successful
+ * Return: value is 0 only if successful
  */
 int main(void)
 {
