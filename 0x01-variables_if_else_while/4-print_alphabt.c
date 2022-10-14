@@ -10,7 +10,7 @@ int main(void)
 
 	for (chl = 'a'; chl <= 'z'; chl++)
 	{
-		if (chl == e || ch1 == q)
+		if (chl == 'e' || ch1 == 'q')
 		{
 			continue;
 		}
