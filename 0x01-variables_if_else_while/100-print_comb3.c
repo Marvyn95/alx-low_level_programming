@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main -prints combination  which is smallest
  * Return: zero if successful
