@@ -18,5 +18,6 @@ int main(void)
 	{
 	putchar(chu);
 	}
+	putchar('\n');
 	return (0);
 }
