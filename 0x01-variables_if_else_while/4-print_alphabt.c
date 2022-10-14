@@ -1,4 +1,4 @@
-#include <stsdio.h>
+#include <stdio.h>
 /**
  * main - prints entire alphabet but a few
  * Return: zero if thumbs up
