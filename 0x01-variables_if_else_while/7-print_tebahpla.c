@@ -14,9 +14,11 @@ int main(void)
 	{
 		putchar(ltl);
 	}
-}	for (ltu = 'Z'; ltu >= 'A'; ltu--)
+
+	for (ltu = 'Z'; ltu >= 'A'; ltu--)
 	{
 		putchar(ltu);
 	}
 	putchar('\n');
 	return (0);
+}
