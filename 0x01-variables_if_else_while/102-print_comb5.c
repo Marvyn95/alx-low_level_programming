@@ -15,7 +15,7 @@ int main(void)
 			{
 				for (d = 1; d <= 9; d++)
 				{
-					if (a == c && b == d || a ==d && b == c)
+					if ((a == c && b == d) || (a ==d && b == c))
 					{
 					continue;
 					}
