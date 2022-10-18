@@ -1,7 +1,7 @@
 #include "main.h"
 /*
  * main - prints lower case alphabet
- * Return: 0 if successful
+ * Return: void if successful
  */
 
 void print_alphabet(void)
@@ -16,5 +16,5 @@ void print_alphabet(void)
 		alph++;
 	}
 	_putchar('\n');
-	return (0);
+	return;
 }
