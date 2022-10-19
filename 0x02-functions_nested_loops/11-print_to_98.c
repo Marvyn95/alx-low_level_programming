@@ -33,7 +33,7 @@ void print_to_98(int k)
 			k++;
 		}
 	}
-	else if (k = 98)
+	else if (k == 98)
 	{
 		_putchar(98);
 	}
