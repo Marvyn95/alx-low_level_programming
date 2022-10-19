@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * jack_bauer - prints minutes in 24 hours
- * Return: returns zer0 if all is well
+ * Return: returns count of hours if all is well
  */
 
 void jack_bauer(void)
 {
-	int min, hr;
+	int hr, min;
 
 	for (hr = 0; hr < 24; hr++)
 	{
