@@ -30,7 +30,7 @@ void print_to_98(int k)
 				_putchar(',');
 				_putchar(' ');
 			}
-			k++;
+			k--;
 		}
 	}
 	else if (k == 98)
