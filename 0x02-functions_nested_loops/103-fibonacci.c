@@ -19,12 +19,12 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j
+			sum = sum + j;
 		}
 
 		new = j + k;
 		j = k;
-		k = new
+		k = new;
 	}
 	printf("%lu\n", sum);
 	return (0);
