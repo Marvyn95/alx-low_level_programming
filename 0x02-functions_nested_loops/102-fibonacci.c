@@ -6,19 +6,24 @@
  */
 int main(void)
 {
-	int i = 1, j = 2, sum = 0, k;
+	int f1 = 0, f2 = 1, sum;
 
-	while (j < 400000)
+	int k;
+
+	for (k = 0; k < 50; k++)
 	{
-		if (j % 2 == 0)
+		sum = f1 + f2;
+		printf("%lu", sum);
+
+		f1 = f2;
+		f2 = sum;
+
+		if (k == 49)
+			printf("\n");
+		else
 		{
-			sum = sum + j;
-			k = j;
-			j = j + i;
-			i = k;
+			printf(", ");
 		}
 	}
-
-	printf("%d\n", sum);
 	return (0);
 }
