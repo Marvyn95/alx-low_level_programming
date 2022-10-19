@@ -11,10 +11,11 @@ void print_to_98(int k)
 	{
 		while (k <= 98)
 		{
-			printf("%d", k);
+			_putchar(k);
 			if (k != 98)
 			{
-				printf(", ");
+				_putchar(',');
+				_putchar(' ');
 			}
 			k++;
 		}
@@ -23,17 +24,18 @@ void print_to_98(int k)
 	{
 		while (k >= 98)
 		{
-			printf("%d", k);
+			_putchar(k);
 			if (k != 98)
 			{
-				printf(", ");
+				_putchar(',');
+				_putchar(' ');
 			}
-			k--;
+			k++;
 		}
 	}
-	else if (k == 98)
+	else if (k = 98)
 	{
-		printf("98");
+		_putchar(98);
 	}
-	printf("\n");
+	_putchar('\n');
 }
