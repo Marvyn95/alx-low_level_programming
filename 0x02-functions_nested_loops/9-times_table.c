@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			c = a * b;
 			_putchar(c);
-			if (c != 81)
+			if (b != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
