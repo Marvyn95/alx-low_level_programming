@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - checks if function works
  * Return: 0 if runs well
