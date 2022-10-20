@@ -8,19 +8,25 @@ int main(void)
 {
 	int i;
 
+	char F[] = "Fizz";
+
+	char B[] = "Buzz";
+
+	char FB[] = "FizzBuzz";
+
 	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%c ", FizzBuzz);
+			printf("%s ", FB);
 		}
 		else if (i % 3 == 0)
 		{
-			printf("%c ", Fizz);
+			printf("%s ", F);
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%c ", Buzz);
+			printf("%s ", B);
 		}
 		else
 		{
