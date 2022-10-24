@@ -9,13 +9,19 @@ void rev_string(char *s)
 {
 	int a, b;
 
-	char ch;
+	char tmp;
 
-	for (a = 0; s[a] != '\0'; ++a)
-		for (b = 0; b < a / 2; ++b)
-		{
-			ch = s[b];
-			s[b] = s[a - 1 - b];
-			s[a - 1 - b] = ch;
-		}
+	a = 0;
+
+	while (s[b] != 0)
+	{
+		b++;
+	}
+	b--;
+	for (a = 0; a <= b; b--, a++)
+	{
+		tmp = s[a];
+		s[a] = s[b];
+		s[a] = tmp
+	}
 }
