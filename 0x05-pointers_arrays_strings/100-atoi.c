@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	unsigned int n;
 
-	int sn = 1
+	int sn = 1;
 
 	n = 0;
 
@@ -23,5 +23,6 @@ int _atoi(char *s)
 			break;
 	}
 	while (*s++)
-		return (n * sn);
+		;
+return (n * sn);
 }
