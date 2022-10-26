@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - appends a string to another
+ * _strcat - appends a string to another
  * @dest: input string 1
  * @src: second input string
  * Return: returns the a pointer to the resulting string
