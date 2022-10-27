@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat - cancatenates two strings
+ * _strncat - cancatenates two strings
  * @dest: input string
  * @src: second input string
  * @n: number of characters on 2nd string to add
@@ -16,10 +16,11 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		;
 	}
-	for (b = 0; b <= n && src != '\0'; b++)
+	for (b = 0; b < n && src[b] != '\0'; b++)
 	{
 		dest[a] = src[b];
 		a++;
 	}
+	dest[a] = '\0';
 	return (dest);
 }
