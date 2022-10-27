@@ -17,11 +17,11 @@ char *cap_string(char *inp)
 			i++
 		}
 
-		if (str[i - 1] == ' '
-		|| str[i - 1] == '\t'
-		|| str[i - 1] == '\n'
-		|| str[i - 1] == ','
-		|| str[i - 1] == ';'
+		if (inp[i - 1] == ' '
+		|| inp[i - 1] == '\t'
+		|| inp[i - 1] == '\n'
+		|| inp[i - 1] == ','
+		|| inp[i - 1] == ';'
 		|| inp[i - 1] == '.'
 		|| inp[i - 1] == '!'
 		|| inp[i - 1] == '?'
