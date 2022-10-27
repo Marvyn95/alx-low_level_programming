@@ -14,7 +14,7 @@ char *cap_string(char *inp)
 	{
 		while (!(inp[i] >= 'a' && inp[i] <= 'z'))
 		{
-			i++
+			i++;
 		}
 
 		if (inp[i - 1] == ' '
@@ -32,7 +32,7 @@ char *cap_string(char *inp)
 		|| inp[i - 1] == '}'
 		|| i == 0)
 		{
-		inp[i] -= 32;
+			inp[i] -= 32;
 		}
 		i++;
 	}
