@@ -4,7 +4,7 @@
 /**
  * print_diagsums - sum of diagonal value s of square matrix
  * @a: array
- * @size: number integers in each row
+ * @size: number of integers in each row
  * Return: void
  */
 
