@@ -6,7 +6,7 @@
  * Return: sqrt of n
  * @y: root number
  */
-int comp(int n, int y);
+int comp(int n, int y)
 {
 	if (y * y == n)
 	{
