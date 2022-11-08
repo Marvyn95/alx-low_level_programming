@@ -44,6 +44,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s2[i]; i++)
 	{
 		cs[ci] = s2[i];
+		ci++;
 	}
 	return (cs);
 }
