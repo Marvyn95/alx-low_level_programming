@@ -5,7 +5,6 @@
  * main - multiplies 2 numbers
  * @argc: argument count
  * @argv: argument vector
- * @pr: product of the two numbers
  * Return: 0 if succesful
  */
 
