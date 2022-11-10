@@ -19,13 +19,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	if (isdigit(argv[1]) == 0 || isdigit(argv[2] == 0))
-	{
-		printf("Error\n");
-		exit(98);
-	}
+	pr = atoi(argv[1]) * atoi(argv[2]);
 
-	pr = argv[1] * argv[2];
-
-	printf("%d", pr;
+	printf("%d", pr);
+	return (0);
 }
