@@ -8,7 +8,7 @@
  * Return: NULL or pointer to memory allocated
  */
 
-void _calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *mem;
 	char *filler;
