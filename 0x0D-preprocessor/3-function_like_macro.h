@@ -3,7 +3,7 @@
 
 /**
  * File: 3-function_like_macro.h
- * Description: computes absolute value of a integer
+ * Description: macro ABS(x) computes absolute value of integer x
  */
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))
