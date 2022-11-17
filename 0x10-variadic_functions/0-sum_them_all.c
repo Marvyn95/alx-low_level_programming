@@ -4,6 +4,7 @@
 /**
  * sum_them_all - sums all arguments passed
  * @n: number of integers passed
+ * @...: other passed variadic arguments
  * Return: sum of al the arguments passed
  */
 
