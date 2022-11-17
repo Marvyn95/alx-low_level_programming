@@ -8,7 +8,7 @@
  * @n: number of strings passed as arguments
  * @...: ellipsis or variadic arguments
  */
-void print_strings(const_char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list string;
 	char *s;
@@ -34,5 +34,6 @@ void print_strings(const_char *separator, const unsigned int n, ...)
 		}
 	}
 	printf("\n");
+
 	va_end(string);
 }
