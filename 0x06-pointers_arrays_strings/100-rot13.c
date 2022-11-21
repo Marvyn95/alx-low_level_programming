@@ -12,12 +12,12 @@ char *rot13(char *inp)
 	for (i = 0; inp[i] != '\0'; i++)
 	{
 		if ((inp[i] >= 'a' && inp[i] < 'n')
-				|| (inp[i] >= 'A' && inp[i] < 'N'))
+		|| (inp[i] >= 'A' && inp[i] < 'N'))
 			{
 				inp[i] = inp[i] + 13;
 			}
 		else if ((inp[i] >= 'n' && inp[i] <= 'z')
-				|| (inp[i] >= 'N' && inp[i] <= 'Z'))
+		|| (inp[i] >= 'N' && inp[i] <= 'Z'))
 			{
 				inp[i] = inp[i] - 13;
 			}
