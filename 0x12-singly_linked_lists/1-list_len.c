@@ -3,7 +3,6 @@
 /**
  * list_len - finds number of elements in a linked list
  * @h: pointer to head of the list
- * @elements: counter for elements
  * Return: number of elements
  */
 
