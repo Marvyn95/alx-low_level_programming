@@ -11,6 +11,7 @@
  * @next: pointer to the next node
  * Description: doubly linked list structure
  */
+
 typedef struct dlistint_s
 {
 	int n;
